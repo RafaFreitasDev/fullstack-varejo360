@@ -1,8 +1,63 @@
 <img width="150" src="https://i.ibb.co/m0xnbYR/logo-nome.png">
 
-# Vaga fullstack Varejo 360
-Aplicação da avaliação para vaga: Avaliação Prática - Vaga em Desenvolvimento de Fullstack Web - Documentos Google
+# Avaliação prática - Fullstack Web Varejo 360
 
-# Instruções
+Esta avaliação tem por objetivo avaliar sua capacidade de desenvolver um sistema do zero, utilizando um conjunto de tecnologias pré-definidas.
 
-Crie um fork desse repositório, crie a aplicação necessária para a avaliação e adicione um PR para que seja avaliado.
+## Descrição do sistema
+
+Você implementará o sistema **CATALOGO DO LEITE**.
+
+Nesse sistema, o usuário pode buscar os produtos informando:
+- o início do código do produto ou
+- parte da descrição do produto
+
+Após a busca, o sistema apresenta em uma tabela todos os produtos que atenderam ao filtro. Essa tabela deve exibir 10 itens por página.
+
+Dentro da tabela, deve haver uma coluna com um botão para a exclusão daquele item.
+
+O usuário também pode cadastrar um novo produto, informando o código e a descrição. Para o cadastro, é essencial garantir que o código do produto é único.
+
+Toda vez que um cadastro é concluído com sucesso, a tabela de resultado da busca deve ser atualizada.
+
+Abaixo, temos um mock desse sistema e um vídeo explicando como funciona a interação do usuário com o sistema.
+
+
+## Requisitos técnicos
+
+O sistema deve ser um website com uma API REST.
+
+O frontend deve ser implementado em Angular 11 ou superior. 
+
+A API REST (backend) deve ser implementado em Kotlin ou Java, utilizando Spring Boot 2.4.2 ou superior. 
+
+O sistema deverá se conectar a um banco de dados PostgreSQL, cujas configurações de acesso foram enviadas em seu email.
+
+
+## Requisitos extra
+
+Segue abaixo uma lista de requisitos extra do sistema. Eles são pontos que, apesar de serem extras, tem grande importância na avaliação.
+
+1. Implementar a ordenação na tabela. O usuário pode escolher a ordenação clicando no cabeçalho da tabela
+2. Permitir que o usuário edite a descrição de um produto
+3. Criar um conjunto de testes de controller (3 casos de teste) utilizando MockMVC
+4. Criar Dockerfile para construir a imagem do servidor e adicionar as instruções de build e run deste Dockerfile no README
+
+
+## Instruções
+
+Para a implementação do sistema, crie um fork desse repositório e adicione todo o código nesse fork. Ao fim, adicione um PR para que seja avaliado.
+
+
+## Avaliação
+
+Além do funcionamento do sistema, será avaliada a organização do código, comentários
+
+
+## Instruções para construção (build) e execução (run) do frontend
+
+<preencha as instruções nesse tópico>
+
+## Instruções para construção (build) e execução (run) do backend
+
+<preencha as instruções nesse tópico>
