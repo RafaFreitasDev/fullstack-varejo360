@@ -50,7 +50,7 @@ Segue abaixo uma lista de requisitos extra do sistema. Eles são pontos que, ape
 
 ## Instruções
 
-Para a implementação do sistema, crie um fork desse repositório e adicione todo o código nesse fork. Ao fim, adicione um PR para que seja avaliado.
+Para a implementação do sistema, crie um fork desse repositório e adicione todo o código nesse fork. Ao fim, gere um PR neste repositório para que seja avaliado.
 
 
 ## Avaliação
