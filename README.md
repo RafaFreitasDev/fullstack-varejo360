@@ -6,7 +6,7 @@ Esta avaliação tem por objetivo avaliar sua capacidade de desenvolver um siste
 
 ## Descrição do sistema
 
-Você implementará o sistema **CATALOGO DE LEITE**.
+Você implementará o sistema **CATÁLOGO DE LEITE**.
 
 Nesse sistema, o usuário pode buscar os produtos informando:
 - o início do código do produto ou
@@ -22,10 +22,9 @@ Toda vez que um cadastro é concluído com sucesso, a tabela de resultado da bus
 
 Abaixo, temos um mock desse sistema e um vídeo explicando como funciona a interação do usuário com o sistema.
 
-**Mock:** https://www.figma.com/proto/3EBOfV1Pcby3fsWqQppiwk/Cat%C3%A1logo-do-Leite?node-id=20%3A109&scaling=min-zoom
-
 **Vídeo explicativo:** https://share.vidyard.com/watch/4kqLwuEqbA4QcB7Bnud3wP
 
+**Mock:** https://www.figma.com/proto/3EBOfV1Pcby3fsWqQppiwk/Cat%C3%A1logo-do-Leite?node-id=20%3A109&scaling=min-zoom
 
 ## Requisitos técnicos
 
@@ -50,7 +49,7 @@ Segue abaixo uma lista de requisitos extra do sistema. Eles são pontos que, ape
 
 ## Instruções
 
-Para a implementação do sistema, crie um fork desse repositório e adicione todo o código nesse fork. Ao fim, gere um PR neste repositório para que seja avaliado.
+Para a implementação do sistema, crie um fork desse repositório e adicione todo o código nesse fork. Ao fim, gere um PR neste repositório com o título `fullstack_web - <nome completo>` para que seja avaliado.
 
 
 ## Avaliação
