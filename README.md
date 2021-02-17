@@ -6,21 +6,25 @@ Esta avaliação tem por objetivo avaliar sua capacidade de desenvolver um siste
 
 ## Descrição do sistema
 
-Você implementará o sistema **CATALOGO DO LEITE**.
+Você implementará o sistema **CATALOGO DE LEITE**.
 
 Nesse sistema, o usuário pode buscar os produtos informando:
 - o início do código do produto ou
-- parte da descrição do produto
+- parte do nome do produto
 
 Após a busca, o sistema apresenta em uma tabela todos os produtos que atenderam ao filtro. Essa tabela deve exibir 10 itens por página.
 
 Dentro da tabela, deve haver uma coluna com um botão para a exclusão daquele item.
 
-O usuário também pode cadastrar um novo produto, informando o código e a descrição. Para o cadastro, é essencial garantir que o código do produto é único.
+O usuário também pode cadastrar um novo produto, informando o código e o nome. Para o cadastro, é essencial garantir que o código do produto é único.
 
 Toda vez que um cadastro é concluído com sucesso, a tabela de resultado da busca deve ser atualizada.
 
 Abaixo, temos um mock desse sistema e um vídeo explicando como funciona a interação do usuário com o sistema.
+
+**Mock:** https://www.figma.com/proto/3EBOfV1Pcby3fsWqQppiwk/Cat%C3%A1logo-do-Leite?node-id=20%3A109&scaling=min-zoom
+
+**Vídeo explicativo:** https://share.vidyard.com/watch/4kqLwuEqbA4QcB7Bnud3wP
 
 
 ## Requisitos técnicos
@@ -51,7 +55,7 @@ Para a implementação do sistema, crie um fork desse repositório e adicione to
 
 ## Avaliação
 
-Além do funcionamento do sistema, será avaliada a organização do código, comentários
+Além do funcionamento do sistema, será avaliada a organização do código, comentários e a identidade visual do sistema.
 
 
 ## Instruções para construção (build) e execução (run) do frontend
