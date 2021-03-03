@@ -36,6 +36,12 @@ A API REST (backend) deve ser implementado em Kotlin ou Java, utilizando Spring 
 
 O sistema deverá se conectar a um banco de dados PostgreSQL, cujas configurações de acesso foram enviadas em seu email.
 
+A paginação deverá ser implementada no front-end e no back-end.
+
+A busca com filtro vazio deve exibir todos os dados disponíveis.
+
+Adicionar roteamento no angular.
+
 
 ## Requisitos extra
 
@@ -43,8 +49,8 @@ Segue abaixo uma lista de requisitos extra do sistema. Eles são pontos que, ape
 
 1. Implementar a ordenação na tabela. O usuário pode escolher a ordenação clicando no cabeçalho da tabela
 2. Permitir que o usuário edite a descrição de um produto
-3. Criar um conjunto de testes de controller (3 casos de teste) utilizando MockMVC
-4. Criar Dockerfile para construir a imagem do servidor e adicionar as instruções de build e run deste Dockerfile no README
+3. Criar um conjunto de testes de controller (3 casos de teste, no mínimo) utilizando MockMVC
+4. Criar Dockerfile para construir a imagem do servidor, adicionar as instruções de criação e execução da imagem do container no README
 
 
 ## Instruções
