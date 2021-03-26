@@ -1,4 +1,4 @@
-<img width="150" src="https://i.ibb.co/m0xnbYR/logo-nome.png">
+<img width="150" src="https://d9hhrg4mnvzow.cloudfront.net/www.meuvarejo360.com.br/a036c933-logo-varejo-horizontal_106j023000000000000028.png">
 
 # Avaliação prática - Fullstack Web Varejo 360
 
