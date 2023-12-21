@@ -1,5 +1,3 @@
-<img width="150" src="https://d9hhrg4mnvzow.cloudfront.net/www.meuvarejo360.com.br/a036c933-logo-varejo-horizontal_106j023000000000000028.png">
-
 # Avaliação prática - Fullstack Web Varejo 360
 
 Esta avaliação tem por objetivo avaliar sua capacidade de desenvolver um sistema do zero, utilizando um conjunto de tecnologias pré-definidas.
@@ -30,17 +28,17 @@ Abaixo, temos um mock desse sistema e um vídeo explicando como funciona a inter
 
 O sistema deve ser um website com uma API REST.
 
-O frontend deve ser implementado em Angular 11 ou superior. 
+O frontend deve ser implementado em React. 
 
-A API REST (backend) deve ser implementado em Kotlin ou Java, utilizando Spring Boot 2.4.2 ou superior. 
+A API REST (backend) deve ser implementado em Kotlin ou Java, utilizando Spring Boot 3.2.1 ou superior. 
 
-O sistema deverá se conectar a um banco de dados PostgreSQL, cujas configurações de acesso foram enviadas em seu email.
+O sistema deverá se conectar a um banco de dados PostgreSQL, que deve ser inicializado em um container local na máquina.
 
 A paginação deverá ser implementada no front-end e no back-end.
 
 A busca com filtro vazio deve exibir todos os dados disponíveis.
 
-Adicionar roteamento no angular.
+Adicionar roteamento no React.
 
 
 ## Requisitos extra
