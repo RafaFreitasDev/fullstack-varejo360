@@ -47,8 +47,9 @@ Segue abaixo uma lista de requisitos extra do sistema. Eles são pontos que, ape
 
 1. Implementar a ordenação na tabela. O usuário pode escolher a ordenação clicando no cabeçalho da tabela
 2. Permitir que o usuário edite a descrição de um produto
-3. Criar um conjunto de testes de controller (3 casos de teste, no mínimo) utilizando MockMVC
-4. Criar Dockerfile para construir a imagem do servidor, adicionar as instruções de criação e execução da imagem do container no README
+3. Adicionar controle de acesso (tela de login e permissão para acessar os serviços da API)
+4. Criar um conjunto de testes de controller (3 casos de teste, no mínimo) utilizando MockMVC
+5. Criar Dockerfile para construir a imagem do servidor, adicionar as instruções de criação e execução da imagem do container no README
 
 
 ## Instruções
