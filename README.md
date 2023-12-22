@@ -28,7 +28,7 @@ Abaixo, temos um mock desse sistema e um vídeo explicando como funciona a inter
 
 O sistema deve ser um website com uma API REST.
 
-O frontend deve ser implementado em React. 
+O frontend deve ser implementado em React (utilizar hooks). 
 
 A API REST (backend) deve ser implementado em Kotlin ou Java, utilizando Spring Boot 3.2.1 ou superior. 
 
