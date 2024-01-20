@@ -146,3 +146,58 @@ mvn spring-boot:run
 # Observação IMPORTANTE
 
 O CORS está configurado para requisições de origem `http://localhost:5173` e `http://localhost:3000`
+
+## Instruções para construção (build) e execução (run) do projeto com o Docker
+
+# Nome do Projeto
+
+Descrição breve do projeto.
+
+## Pré-requisitos
+
+Antes de começar, você precisa ter o Docker e o Docker Compose instalados em sua máquina. Se não os tiver, você pode baixá-los e instalá-los a partir dos seguintes links:
+
+- Docker: [https://www.docker.com/get-started](https://www.docker.com/get-started)
+- Docker Compose: [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
+
+## Configuração
+
+Montar um arquivo .env aos moldes de .env.example e preencher as variáveis de ambiente.
+
+## Construindo e Executando o Projeto
+
+Para construir e executar o projeto com Docker Compose, siga estes passos:
+
+1. **Construir os Containers**
+
+    No diretório raiz do seu projeto, onde o arquivo `docker-compose.yml` está localizado, execute o seguinte comando:
+
+    ```
+    docker-compose build
+    ```
+
+    Este comando irá construir as imagens para o `frontend` e o `backend` com base nas instruções encontradas nos respectivos `Dockerfiles`.
+
+2. **Executar os Containers**
+
+    Após a construção das imagens, você pode iniciar os containers com o comando:
+
+    ```
+    docker-compose up
+    ```
+
+    Para executar em modo 'detached' (em segundo plano), use:
+
+    ```
+    docker-compose up -d
+    ```
+
+3. **Acessar a Aplicação**
+
+    Após os containers estarem em execução, você pode acessar a aplicação frontend e backend nos endereços especificados no arquivo `docker-compose.yml`.
+
+## Parando os Containers
+
+Para parar os containers, você pode usar o seguinte comando:
+
+
