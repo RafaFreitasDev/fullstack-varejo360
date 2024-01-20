@@ -35,9 +35,9 @@ services:
     build: 
       context: ./frontend/
     ports:
-      - "3000:3000"
+      - "5173:5173"
     depends_on:
       - backend
     command: sh -c "npm run dev"
     volumes:
-      - ./frontend/:/app
+      - ./frontend/:/frontend
