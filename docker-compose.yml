@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  backend:
+    container_name: java_api
+    build:
+      context: ./backend/
+    ports:
+      - $PORT:$PORT
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+    command: sh -c "mvn install && mvn compile && mvn spring-boot:run"
+    volumes:
+      - ./backend/:/app
+
+  db:
+    container_name: db
+    image: postgres:15.5-alpine3.18
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $POSTGRES_USER -d $POSTGRES_DB -h localhost -p $PGPORT"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  frontend:
+    container_name: frontend
+    build: 
+      context: ./frontend/
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    command: sh -c "npm run dev"
+    volumes:
+      - ./frontend/:/app

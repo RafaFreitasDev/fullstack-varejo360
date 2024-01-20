@@ -8,7 +8,7 @@ RUN mvn clean package -DskipTests
 #
 # Package stage
 #
-FROM openjdk:21
+FROM openjdk:17
 COPY --from=build /target/backend-0.0.1-SNAPSHOT.jar backend.jar
 # ENV PORT=3001
 EXPOSE 3001
