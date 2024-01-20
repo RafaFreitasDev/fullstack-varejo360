@@ -29,6 +29,7 @@ public class UserController {
     }
 
     //setar rota de criação
+    @CrossOrigin(origins = {"http://localhost:5173","http://localhost:3000"})
     @PostMapping
     public ResponseEntity<User> createUser(@Valid @RequestBody final UserDto userData){
         userData.setPassword(new BCryptPasswordEncoder().encode(userData.getPassword()));
