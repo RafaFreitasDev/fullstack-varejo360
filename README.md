@@ -147,11 +147,8 @@ mvn spring-boot:run
 
 O CORS está configurado para requisições de origem `http://localhost:5173` e `http://localhost:3000`
 
+
 ## Instruções para construção (build) e execução (run) do projeto com o Docker
-
-# Nome do Projeto
-
-Descrição breve do projeto.
 
 ## Pré-requisitos
 
