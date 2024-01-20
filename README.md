@@ -169,7 +169,7 @@ Para construir e executar o projeto com Docker Compose, siga estes passos:
 
     No diretório raiz do seu projeto, onde o arquivo `docker-compose.yml` está localizado, execute o seguinte comando:
 
-    ```
+    ```bash
     docker-compose build
     ```
 
@@ -179,13 +179,13 @@ Para construir e executar o projeto com Docker Compose, siga estes passos:
 
     Após a construção das imagens, você pode iniciar os containers com o comando:
 
-    ```
+    ```bash
     docker-compose up
     ```
 
     Para executar em modo 'detached' (em segundo plano), use:
 
-    ```
+    ```bash
     docker-compose up -d
     ```
 
@@ -197,7 +197,7 @@ Para construir e executar o projeto com Docker Compose, siga estes passos:
 
 Para parar os containers, você pode usar o seguinte comando: 
     
-    ```
+    ```bash
     docker-compose down
     ```
 
