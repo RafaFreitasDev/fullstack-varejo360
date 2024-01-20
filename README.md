@@ -195,6 +195,10 @@ Para construir e executar o projeto com Docker Compose, siga estes passos:
 
 ## Parando os Containers
 
-Para parar os containers, você pode usar o seguinte comando:
+Para parar os containers, você pode usar o seguinte comando: 
+    
+    ```
+    docker-compose down
+    ```
 
 
