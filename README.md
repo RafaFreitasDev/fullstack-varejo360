@@ -96,7 +96,7 @@ npm install -g serve
 serve -s dist
 ```
 
-## Instruções para construção (build) e execução (run) do backend
+# Instruções para construção (build) e execução (run) do backend
 
 # PROJETO BACKEND
 
@@ -106,7 +106,7 @@ Antes de começar, certifique-se de que o seguinte esteja instalado em sua máqu
 
 -Maven
 
-# Construção (Build) do Projeto com Maven
+## Construção (Build) do Projeto com Maven
 
 1-Abra o Terminal ou Prompt de Comando.
 
@@ -121,7 +121,7 @@ mvn clean install
 
 *`install` compila o projeto e instala o pacote no repositório local do Maven, pronto para ser usado como uma dependência em outros projetos.
 
-# Execução (Run) do Projeto com Spring Boot
+## Execução (Run) do Projeto com Spring Boot
 
 Após construir o projeto, você pode executar a aplicação Spring Boot.
 
@@ -133,7 +133,7 @@ Após construir o projeto, você pode executar a aplicação Spring Boot.
 java -jar target/seu-arquivo.jar
 ```
 
-# Execução Direta com o Maven
+## Execução Direta com o Maven
 
 Se você deseja executar a aplicação diretamente sem passar por uma build separada, pode usar o plugin do Spring Boot com Maven:
 
@@ -143,12 +143,12 @@ Este comando compila e executa a aplicação diretamente. É útil durante o des
 mvn spring-boot:run
 ```
 
-# Observação IMPORTANTE
+## Observação IMPORTANTE
 
 O CORS está configurado para requisições de origem `http://localhost:5173` e `http://localhost:3000`
 
 
-## Instruções para construção (build) e execução (run) do projeto com o Docker
+# Instruções para construção (build) e execução (run) do projeto com o Docker
 
 ## Pré-requisitos
 
