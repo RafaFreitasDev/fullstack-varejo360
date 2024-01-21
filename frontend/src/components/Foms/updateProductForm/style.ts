@@ -23,9 +23,13 @@ export const StyledUpdateProductForm = styled.div`
       align-self: center;
       color: var(--color-gray-900);
       font-size: 20px;
+      color: var(--color-gray-900);
+      font-size: 20px;
     }
     span{
       margin-top: 10px;
+      color: var(--color-gray-900);
+      font-size: 20px;
     }
 
     label {

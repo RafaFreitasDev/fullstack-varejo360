@@ -83,6 +83,14 @@ export const StyledDashboard = styled.div`
     }
   }
 
+  .code:hover{
+    background-color: var(--color-gray-400);
+  }
+
+  .name:hover{
+    background-color: var(--color-gray-400);
+  }
+
   h1{
     font-size: 18px;
   }
