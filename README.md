@@ -69,7 +69,7 @@ DEPLOY_URL_FRONT: https://frontend-iota-eight-62.vercel.app/
 DEPLOY_URL_BACK: https://varejodb.onrender.com
     
 
-## Instruções para construção (build) e execução (run) do frontend
+# Instruções para construção (build) e execução (run) do frontend
 
 Após ter clonado o repositório
 
