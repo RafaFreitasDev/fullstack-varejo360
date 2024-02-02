@@ -54,6 +54,19 @@ Para parar os containers, você pode usar o seguinte comando:
 ```bash
 docker-compose down
 ```
+
+
+## DEPLOY FRONT e BACK END
+
+Existe uma organização clonando este repositório em 2 para fins de deploy.
+
+    • Lembrando que a API está em um servidor gratuito e precisa de alguns segundos (talvez minutos) para “acordar”.
+
+GIT_ORGANIZAÇÃO: https://github.com/vaga-fullstack-varejo360
+
+DEPLOY_URL_FRONT: https://frontend-iota-eight-62.vercel.app/
+
+DEPLOY_URL_BACK: https://varejodb.onrender.com
     
 
 ## Instruções para construção (build) e execução (run) do frontend
