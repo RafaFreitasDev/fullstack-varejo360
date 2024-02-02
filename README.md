@@ -1,6 +1,6 @@
 # Projeto Fullstack Web Varejo 360
 
-Aplicação simples de cadastro e edição de produtos com autenticação de usuário. Frontend em ReactJs e Backend em Java Spring Boot. Projeto Dockerizado.
+Aplicação simples de gerenciamento de produtos com autenticação de usuário. Frontend em ReactJs e Backend em Java Spring Boot. Projeto Dockerizado.
 
 # Instruções para construção (build) e execução (run) do projeto com o Docker
 
