@@ -60,7 +60,7 @@ docker-compose down
 
 Existe uma organização clonando este repositório em 2 para fins de deploy.
 
-    • Lembrando que a API está em um servidor gratuito e precisa de alguns segundos (talvez minutos) para “acordar”.
+* Lembrando que a API está em um servidor gratuito e precisa de alguns segundos (talvez minutos) para “acordar”.
 
 GIT_ORGANIZAÇÃO: https://github.com/vaga-fullstack-varejo360
 
